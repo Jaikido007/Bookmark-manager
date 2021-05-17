@@ -1,0 +1,96 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/app.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/lib/bookmarks.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/spec/bookmarks_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/spec/features/testing_infrastructure_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1621264559
+  }
+}
