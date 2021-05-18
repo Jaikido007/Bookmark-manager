@@ -17,8 +17,7 @@ feature 'bookmark page' do
 
   scenario 'view list of bookmarks' do
     visit '/bookmarks'
-    expect(page).to have_content 'www.imdb.com'
-    expect(page).to have_content 'www.youtube.com'
-    expect(page).to have_content 'www.twitter.com'
+    expect(page).to have_content 'http://www.makersacademy.com'
+    expect(page).to have_content 'http://www.google.com'
   end
 end

@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/app.rb": {
+      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/app.rb": {
         "lines": [
           1,
           1,
@@ -32,12 +32,32 @@
           null
         ]
       },
-      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/lib/bookmarks.rb": {
+      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/lib/bookmarks.rb": {
         "lines": [
           1,
-          1,
           null,
+          1,
+          1,
           2,
+          2,
+          10,
+          null,
+          null
+        ]
+      },
+      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/spec/bookmarks_spec.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
           null,
           null,
           null,
@@ -45,24 +65,7 @@
           null
         ]
       },
-      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/spec/bookmarks_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/spec/features/testing_infrastructure_spec.rb": {
+      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/spec/features/testing_infrastructure_spec.rb": {
         "lines": [
           1,
           1,
@@ -81,7 +84,6 @@
           1,
           null,
           null,
-          1,
           1,
           1,
           1,
@@ -91,6 +93,6 @@
         ]
       }
     },
-    "timestamp": 1621264559
+    "timestamp": 1621346705
   }
 }
