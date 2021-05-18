@@ -9,9 +9,11 @@ As a user
 So that I can see my bookmarks
 I would like to be able to list my bookmarks.
 
-Add new bookmarks
+Add new bookmarks:
+
 As a user
-So that I can
+So that I can store extra bookmarks
+I would like to be able to add new bookmarks
 
 Delete bookmarks
 

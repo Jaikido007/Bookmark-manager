@@ -5,16 +5,20 @@ feature 'testing infrastructure' do
   end
 end
 
-# USER STORY 1
-# As a user
-# So that I can see my bookmarks
-# I would like to be able to list my bookmarks.
+
+
 feature 'bookmark page' do
   scenario 'visit the homepage' do
     visit '/'
     expect(page).to have_content 'Bookmark Manager'
   end
+end
 
+  # As a user
+  # So that I can see my bookmarks
+  # I would like to be able to list my bookmarks.
+
+feature 'View bookmarks' do
   scenario 'view list of bookmarks' do
     connection = PG.connect(dbname: 'bookmark_manager_test')
 
@@ -28,5 +32,20 @@ feature 'bookmark page' do
     expect(page).to have_content "http://www.makersacademy.com"
     expect(page).to have_content "http://www.destroyallsoftware.com"
     expect(page).to have_content "http://www.google.com"
+  end
+end
+
+
+# As a user
+# So that I can store extra bookmarks
+# I would like to be able to add new bookmarks
+
+feature 'Add new bookmark' do
+  scenario 'adds a bookmark' do
+    visit('/bookmarks/new')
+    fill_in('url', with: 'http://testbookmark.com')
+    click_button('Submit')
+
+    expect(page).to have_content 'http://testbookmark.com'
   end
 end
