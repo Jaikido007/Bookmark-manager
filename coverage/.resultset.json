@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/app.rb": {
+      "/Users/mattedwards/Documents/MAKERS/PROJECTS/Bookmark-manager/app.rb": {
         "lines": [
           1,
           1,
@@ -21,44 +21,106 @@
           null,
           null,
           1,
+          3,
+          3,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
           2,
           2,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
           null,
           null,
           1,
           null
         ]
       },
-      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/lib/bookmarks.rb": {
+      "/Users/mattedwards/Documents/MAKERS/PROJECTS/Bookmark-manager/lib/bookmarks.rb": {
         "lines": [
           1,
           null,
           1,
           1,
-          3,
-          3,
+          1,
+          17,
+          17,
+          17,
+          null,
+          null,
+          null,
+          1,
+          4,
+          4,
           null,
           0,
           null,
           null,
-          3,
-          10,
+          4,
+          4,
+          8,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          9,
+          9,
+          null,
+          0,
+          null,
+          null,
+          9,
+          9,
           null,
           null
         ]
       },
-      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/spec/bookmarks_spec.rb": {
+      "/Users/mattedwards/Documents/MAKERS/PROJECTS/Bookmark-manager/spec/bookmarks_spec.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/mattedwards/Documents/MAKERS/PROJECTS/Bookmark-manager/spec/database_helpers.rb": {
         "lines": [
           1,
           null,
@@ -66,23 +128,24 @@
           1,
           1,
           1,
-          null,
-          null,
+          null
+        ]
+      },
+      "/Users/mattedwards/Documents/MAKERS/PROJECTS/Bookmark-manager/spec/features/creating_bookmarks_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
           1,
           1,
           1,
           null,
           1,
-          null,
-          1,
-          1,
-          1,
-          null,
           null,
           null
         ]
       },
-      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/spec/features/testing_infrastructure_spec.rb": {
+      "/Users/mattedwards/Documents/MAKERS/PROJECTS/Bookmark-manager/spec/features/testing_infrastructure_spec.rb": {
         "lines": [
           1,
           1,
@@ -106,18 +169,18 @@
           null,
           1,
           1,
-          1,
           null,
           null,
-          1,
-          1,
-          1,
-          null,
-          1,
           null,
           1,
           1,
           1,
+          null,
+          1,
+          null,
+          1,
+          0,
+          0,
           null,
           null,
           null,
@@ -138,6 +201,6 @@
         ]
       }
     },
-    "timestamp": 1621351920
+    "timestamp": 1621439323
   }
 }
