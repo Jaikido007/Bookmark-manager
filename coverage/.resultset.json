@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/app.rb": {
+      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/app.rb": {
         "lines": [
           1,
           1,
@@ -57,16 +57,16 @@
           null
         ]
       },
-      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/lib/bookmarks.rb": {
+      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/lib/bookmarks.rb": {
         "lines": [
           1,
           null,
           1,
           1,
           1,
-          24,
-          24,
-          24,
+          27,
+          27,
+          27,
           null,
           null,
           null,
@@ -85,23 +85,14 @@
           null,
           null,
           1,
-          12,
-          12,
+          13,
+          13,
           null,
           0,
           null,
           null,
-          12,
-          12,
-          null,
-          null,
-          1,
-          2,
-          2,
-          null,
-          0,
-          null,
-          2,
+          13,
+          13,
           null,
           null,
           1,
@@ -111,13 +102,33 @@
           0,
           null,
           2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          0,
+          null,
+          2,
           2,
           null,
           null,
+          1,
+          2,
+          2,
+          null,
+          0,
+          null,
+          2,
+          2,
+          null,
+          null,
+          null,
           null
         ]
       },
-      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/spec/bookmarks_spec.rb": {
+      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/spec/bookmarks_spec.rb": {
         "lines": [
           1,
           1,
@@ -175,10 +186,24 @@
           1,
           null,
           null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
           null
         ]
       },
-      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/spec/database_helpers.rb": {
+      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/spec/database_helpers.rb": {
         "lines": [
           1,
           null,
@@ -189,7 +214,7 @@
           null
         ]
       },
-      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/spec/features/creating_bookmarks_spec.rb": {
+      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/spec/features/creating_bookmarks_spec.rb": {
         "lines": [
           null,
           null,
@@ -207,7 +232,7 @@
           null
         ]
       },
-      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/spec/features/deleting_bookmarks_spec.rb": {
+      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/spec/features/deleting_bookmarks_spec.rb": {
         "lines": [
           null,
           null,
@@ -227,7 +252,7 @@
           null
         ]
       },
-      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/spec/features/listing_bookmarks_spec.rb": {
+      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/spec/features/listing_bookmarks_spec.rb": {
         "lines": [
           null,
           null,
@@ -251,7 +276,7 @@
           null
         ]
       },
-      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/spec/features/testing_infrastructure_spec.rb": {
+      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/spec/features/testing_infrastructure_spec.rb": {
         "lines": [
           1,
           1,
@@ -268,7 +293,7 @@
           null
         ]
       },
-      "/Users/jaymullen/Projects/PAIRING-PROJECTS/Bookmark-manager/spec/features/updating_bookmarks_spec.rb": {
+      "/Users/liamkilkenny/Documents/GitHub/Bookmark-manager/spec/features/updating_bookmarks_spec.rb": {
         "lines": [
           null,
           null,
@@ -294,6 +319,6 @@
         ]
       }
     },
-    "timestamp": 1621520073
+    "timestamp": 1621521347
   }
 }
