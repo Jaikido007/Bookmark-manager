@@ -12,13 +12,14 @@ class BookmarkManager < Sinatra::Base
   end
 
   get '/' do
-    @bookmarks = Bookmark.all
-    erb :index
+    # @bookmarks = Bookmark.all
+    # erb :index
+    redirect '/bookmarks'
   end
 
   get '/bookmarks' do
     @bookmarks = Bookmark.all
-    erb :bookmarks
+    erb :index
   end
 
   get '/bookmarks/new' do
@@ -29,6 +30,13 @@ class BookmarkManager < Sinatra::Base
     Bookmark.create(url: params[:url], title: params[:title])
     redirect '/bookmarks'
   end
+
+  enable :sessions, :method_override
+
+delete '/bookmarks/:id' do
+  Bookmark.delete(id: params[:id])
+  redirect '/bookmarks'
+end
 
   run! if app_file == $0
 end
