@@ -8,7 +8,7 @@ ENV['ENVIRONMENT'] = 'test'
 
 RSpec.configure do |config|
   config.before(:each) do
-    setup_test_database()
+    setup_test_database
   end
 end
 
@@ -37,8 +37,6 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
 SimpleCov.start
 
 # For accurate test coverage measurements, require your code AFTER 'SimpleCov.start'
-
-
 
 # ENV['RACK_ENV'] = 'hello'
 
