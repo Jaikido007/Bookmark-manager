@@ -23,9 +23,9 @@ feature 'View bookmarks' do
 
     # Add the test data
     
-    Bookmarks.create(url: 'http://www.makersacademy.com', title: 'Makers Academy')
-    Bookmarks.create(url: 'http://www.destroyallsoftware.com', title: 'Destroy All Software')
-    Bookmarks.create(url: 'http://www.google.com', title: 'Google')
+    Bookmark.create(url: 'http://www.makersacademy.com', title: 'Makers Academy')
+    Bookmark.create(url: 'http://www.destroyallsoftware.com', title: 'Destroy All Software')
+    Bookmark.create(url: 'http://www.google.com', title: 'Google')
 
     visit('/bookmarks')
 
@@ -44,8 +44,9 @@ feature 'Add new bookmark' do
   scenario 'adds a bookmark' do
     visit('/bookmarks/new')
     fill_in('url', with: 'http://testbookmark.com')
+    fill_in('title', with: 'Test Bookmark')
     click_button('Submit')
 
-    expect(page).to have_content 'http://testbookmark.com'
+    expect(page).to have_link('Test Bookmark', href: 'http://testbookmark.com')
   end
 end
