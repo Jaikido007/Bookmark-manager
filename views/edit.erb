@@ -1,0 +1,24 @@
+<style>
+input[type=submit]{
+  background-color: #F5F5F5;
+  border: 4px solid: white;
+  color: black;
+  padding: 4px 8px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: cursor;
+}
+input[type="submit"]:hover {
+	background: #F0F8FF;
+}
+</style>
+
+<form action="/bookmarks/<%= @bookmark_id %>" method="post">
+  <input type="hidden" name="_method" value="PATCH" />
+  <input type="text" name="url" />
+  <input type="text" name="title" />
+  <input type="submit" value="Submit" />
+</form>
+
+<body style="background-color: #F5F5F5"></body>
+<center><img src='http://www.baltana.com/files/wallpapers-5/White-Background-Wallpaper-16577.jpg'><center>

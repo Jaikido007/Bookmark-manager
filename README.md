@@ -23,9 +23,16 @@ I would like to be able to delete bookmarks
 
 Update bookmarks
 
+As a User
+So that I can make edits to my list
+I would like to be able to update bookmarks
+
 Comment on bookmarks
+
 Tag bookmarks into categories
+
 Filter bookmarks by tag
+
 Users are restricted to manage only their own bookmarks
 
 ## Database set up
