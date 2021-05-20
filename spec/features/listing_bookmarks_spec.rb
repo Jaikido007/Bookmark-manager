@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # As a user
 # So that I can see my bookmarks
 # I would like to be able to list my bookmarks.

@@ -1,6 +1,6 @@
-require 'pg'
+# frozen_string_literal: true
 
-p 'Setting up test database'
+require 'pg'
 
 def setup_test_database
   connection = PG.connect(dbname: 'bookmark_manager_test')

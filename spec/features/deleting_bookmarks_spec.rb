@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # As a User
 # So that I can remove bookmarks from my library
 # I would like to be able to delete bookmarks

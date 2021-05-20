@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # As a User
 # So that I can make edits to my list
 # I would like to be able to update bookmarks
