@@ -44,8 +44,7 @@ get '/bookmarks/:id/edit' do
 end
 
 patch '/bookmarks/:id' do
-  connection = PG.connect(dbname: 'bookmark_manager_test')
-  connection.exec("UPDATE bookmarks SET url = '#{params[:url]}', title = '#{params[:title]}' WHERE id = '#{params[:id]}'")
+  Bookmark.update(id: params[:id], title: params[:title], url: params[:url])
   redirect('/bookmarks')
 end
 
